@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <header class="fullContainer">
+        <h1>Checkout</h1>
+        <div id="cart-icon" class="cart-icon">
+            <img src="assets/png/shopping-cart.png" alt="Cart">
+            <div id="cart-preview" class="cart-preview"></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="checkout-section" class="checkout-section">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Unit Price</th>
+                    <th>Quanity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="emptyCart">Empty Cart</tbody>
+
+            <tr>
+                <td>Subtotal</td>
+                <td id="subtotal"></td>
+                <td><button id='btnCheckout'>Checkout</button></td>
+            </tr>
+
+        </section>
+
+    </main>
+
+    <footer class="fullContainer">
+        <div class="container">Gabriel Garcia-Miro Jeri - The Bridge - August 2023</div>
+    </footer>
+
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>

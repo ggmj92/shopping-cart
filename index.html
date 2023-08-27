@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Shopping Cart</title>
+</head>
+
+<body>
+    <header class="fullContainer">
+        <h1>Shopping Cart</h1>
+        <div id="cart-icon" class="cart-icon">
+            <img src="assets/png/shopping-cart.png" alt="Cart">
+            <div id="cart-preview" class="cart-preview"></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="category-section" class="category-section">
+            <select name="categories" id="category-select">
+                <option value="all">Select a Category</option>
+                <option value="smartphones">Smartphones</option>
+                <option value="laptops">Laptops</option>
+                <option value="home-decoration">Home Decoration</option>
+                <option value="sunglasses">Sunglasses</option>
+                <option value="lighting">Lighting</option>
+            </select>
+        </section>
+
+        <section id="product-section" class="product-section">
+            <h2>Products</h2>
+
+            <div class="flexContainer">
+                <div class="product-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="fullContainer">
+        <div class="container">Gabriel Garcia-Miro Jeri - The Bridge - August 2023</div>
+    </footer>
+
+    <script src="js/checkout.js"></script>
+
+</body>
+
+</html>
